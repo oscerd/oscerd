@@ -9,7 +9,7 @@
 </a>
 
 <a href="https://oscerd.github.io">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=oscerd&theme=dark" />
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=oscerd&theme=dark" />
 </a>
 
 <br/>
