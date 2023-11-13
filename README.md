@@ -5,7 +5,7 @@
 </a>
 
 <a href="https://oscerd.github.io">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oscerd&&hide=cmake&langs_count=4&line_height=35&theme=dark" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oscerd&hide=cmake&langs_count=4&line_height=35&theme=dark" />
 </a>
 
 <a href="https://oscerd.github.io">
