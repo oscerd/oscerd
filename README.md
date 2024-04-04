@@ -10,7 +10,7 @@
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=oscerd&theme=dark" />
 </a>
 <a href="https://oscerd.github.io">
-  <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=oscerd&theme=dark" />
+  <img align="left" src="https://github-profile-trophy.vercel.app/?username=oscerd" />
 </a>
 <br/>
 <a href="https://twitter.com/oscerd2">
