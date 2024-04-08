@@ -9,13 +9,6 @@
 <a href="https://oscerd.github.io">
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=oscerd&theme=dark" />
 </a>
-
-#### Trophy
-
-<a href="https://oscerd.github.io">
-  <img align="left" src="https://github-profile-trophy.vercel.app/?username=oscerd" />
-</a>
-
 <a href="https://twitter.com/oscerd2">
   <img src="https://img.shields.io/twitter/follow/oscerd2?style=for-the-badge&logo=twitter&&labelColor=1f1f1f&color=5fffaf" />
 </a>
