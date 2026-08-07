@@ -22,7 +22,7 @@ Much of it is one bug class chased across unrelated codebases: **untrusted input
 - **Unsafe deserialization**: registry lookups, key-lifecycle handling, and legacy migration paths
 - **Information disclosure**: stack traces returned to clients where the mute setting defaults wrong or a binding ignores it
 
-Where I can I publish a minimal runnable reproducer, each naming the release that fixed it: 27 for my own findings, plus 20 more built for issues reported by other researchers.
+Where I can I publish a minimal runnable reproducer, each naming the release that fixed it: 28 for my own findings, plus 20 more built for issues reported by other researchers.
 
 I write most of this up on [oscerd.github.io](https://oscerd.github.io), including a weekly roundup of Java vulnerabilities.
 
