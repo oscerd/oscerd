@@ -14,7 +14,7 @@ The review half is the part that matters. A framework with 350+ components stays
 
 ### Security research
 
-**42 CVEs credited to date**, across Camel and twelve other Apache projects: Hadoop, Hive, Storm, Doris, Flink, Flink Kubernetes Operator, IoTDB, Zeppelin, Gravitino, Polaris, Fluss, and SkyWalking. The full table, with CWE classes and fixed-in versions, is in **[security-research](https://github.com/oscerd/security-research)**.
+**46 CVEs credited to date**, across Camel and fourteen other Apache projects: Hadoop, Hive, Storm, Doris, Flink, Flink Kubernetes Operator, IoTDB, Zeppelin, Gravitino, Polaris, Fluss, SkyWalking, InLong, and Ranger. The full table, with CWE classes and fixed-in versions, is in **[security-research](https://github.com/oscerd/security-research)**.
 
 Much of it is one bug class chased across unrelated codebases: **untrusted input reaching a control plane that assumed it was trusted.** In Camel that shows up as header injection, an inbound header the framework never filtered, steering a producer into SSRF, a cross-topic write, or a redirected SOAP operation. Elsewhere it wears different clothes. Other recurring findings:
 
@@ -22,7 +22,7 @@ Much of it is one bug class chased across unrelated codebases: **untrusted input
 - **Unsafe deserialization**: registry lookups, key-lifecycle handling, and legacy migration paths
 - **Information disclosure**: stack traces returned to clients where the mute setting defaults wrong or a binding ignores it
 
-Where I can I publish a minimal runnable reproducer, each naming the release that fixed it: 28 for my own findings, plus 20 more built for issues reported by other researchers.
+Where I can I publish a minimal runnable reproducer, each naming the release that fixed it: 32 for my own findings, plus 26 more built for issues reported by other researchers.
 
 I write most of this up on [oscerd.github.io](https://oscerd.github.io), including a weekly roundup of Java vulnerabilities.
 
