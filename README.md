@@ -29,13 +29,7 @@ I write most of this up on [oscerd.github.io](https://oscerd.github.io), includi
 ### Stats
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=oscerd&theme=dark&hide_border=true">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=oscerd&theme=default&hide_border=true">
-  <img alt="Contribution streak" src="https://github-readme-streak-stats.herokuapp.com/?user=oscerd&hide_border=true">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=oscerd&theme=github-dark&hide_border=true&area=true">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=oscerd&theme=github-light&hide_border=true&area=true">
-  <img alt="Contribution activity over the last year" src="https://github-readme-activity-graph.vercel.app/graph?username=oscerd&hide_border=true&area=true">
+  <source media="(prefers-color-scheme: dark)" srcset="https://ghchart.rshah.org/6cb6ff/oscerd">
+  <source media="(prefers-color-scheme: light)" srcset="https://ghchart.rshah.org/1f6feb/oscerd">
+  <img alt="Contribution chart for the last year" src="https://ghchart.rshah.org/1f6feb/oscerd">
 </picture>
