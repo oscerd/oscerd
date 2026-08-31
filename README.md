@@ -25,11 +25,3 @@ Much of it is one bug class chased across unrelated codebases: **untrusted input
 Where I can I publish a minimal runnable reproducer, each naming the release that fixed it: 32 for my own findings, plus 26 more built for issues reported by other researchers.
 
 I write most of this up on [oscerd.github.io](https://oscerd.github.io), including a weekly roundup of Java vulnerabilities.
-
-### Stats
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://ghchart.rshah.org/6cb6ff/oscerd">
-  <source media="(prefers-color-scheme: light)" srcset="https://ghchart.rshah.org/1f6feb/oscerd">
-  <img alt="Contribution chart for the last year" src="https://ghchart.rshah.org/1f6feb/oscerd">
-</picture>
