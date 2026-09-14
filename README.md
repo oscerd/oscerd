@@ -1,7 +1,3 @@
-[![committers.top badge](https://user-badge.committers.top/italy/oscerd.svg)](https://user-badge.committers.top/italy/oscerd)
-
-[![Metrics](https://github.com/oscerd/oscerd/blob/master/github-metrics.svg)](https://github.com/oscerd/oscerd/blob/master/github-metrics.svg)
-
 ## Andrea Cosentino
 
 Apache Software Foundation Member. I maintain [Apache Camel](https://github.com/apache/camel) and do security research across the Apache ecosystem. Based in Rome, at IBM.
