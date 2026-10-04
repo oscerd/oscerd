@@ -22,6 +22,6 @@ Much of it is one bug class chased across unrelated codebases: **untrusted input
 - **Unsafe deserialization**: registry lookups, key-lifecycle handling, and legacy migration paths
 - **Information disclosure**: stack traces returned to clients where the mute setting defaults wrong or a binding ignores it
 
-Where I can I publish a minimal runnable reproducer, each naming the release that fixed it: 32 for my own findings, plus 27 more built for issues reported by other researchers or found by internal analysis within the project.
+Where I can, I publish a minimal runnable reproducer, each naming the release that fixed it: 32 for my own findings, plus 27 more built for issues reported by other researchers or found by internal analysis within the project. The most recent of those, an XXE in the Camel Quarkus Xalan XSLT support extension ([CVE-2026-88789](https://www.cve.org/CVERecord?id=CVE-2026-88789)), was found with Claude Security Tool.
 
 I write most of this up on [oscerd.github.io](https://oscerd.github.io), including a weekly roundup of Java vulnerabilities.
