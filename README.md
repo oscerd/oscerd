@@ -8,7 +8,7 @@ Apache Software Foundation Member. I maintain [Apache Camel](https://github.com/
 
 ### What I actually spend time on
 
-Camel, mostly: the core framework, the Spring Boot and Quarkus runtimes, Kamelets, Camel K, and the website. Over the last twelve months that came to roughly **1,700 commits and 3,400 pull request reviews** across 31 repositories.
+Camel, mostly: the core framework, the Spring Boot and Quarkus runtimes, Kamelets, Camel K, and the website. Over the last twelve months that came to roughly **2,100 commits and 3,400 pull request reviews** across more than 100 repositories.
 
 The review half is the part that matters. A framework with 350+ components stays healthy because other people's patches land well, not because I write more of them.
 
@@ -22,6 +22,6 @@ Much of it is one bug class chased across unrelated codebases: **untrusted input
 - **Unsafe deserialization**: registry lookups, key-lifecycle handling, and legacy migration paths
 - **Information disclosure**: stack traces returned to clients where the mute setting defaults wrong or a binding ignores it
 
-Where I can, I publish a minimal runnable reproducer, each naming the release that fixed it: 32 for my own findings, plus 27 more built for issues reported by other researchers or found by internal analysis within the project. The most recent of those, an XXE in the Camel Quarkus Xalan XSLT support extension ([CVE-2026-88789](https://www.cve.org/CVERecord?id=CVE-2026-88789)), was found with Claude Security Tool.
+Where I can, I publish a minimal runnable reproducer, each naming the release that fixed it: 32 for my own findings, plus 66 more built for issues reported by other researchers or found by internal analysis within the project. The most recent are the October 2026 wave of Camel component advisories, fixed in 4.18.5 / 4.22.1 / 4.23.0 — many surfaced with Claude Security Scan Tool, alongside externally reported issues such as an unsafe-deserialization RCE in camel-jgroups ([CVE-2026-88900](https://www.cve.org/CVERecord?id=CVE-2026-88900)) and an XXE in camel-smooks ([CVE-2026-88901](https://www.cve.org/CVERecord?id=CVE-2026-88901)).
 
 I write most of this up on [oscerd.github.io](https://oscerd.github.io), including a weekly roundup of Java vulnerabilities.
