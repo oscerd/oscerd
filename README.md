@@ -14,9 +14,9 @@ The review half is the part that matters. A framework with 350+ components stays
 
 ### Security research
 
-**49 CVEs credited to me as the finder**, across Camel and fourteen other Apache projects: Hadoop, Hive, Storm, Doris, Flink, Flink Kubernetes Operator, IoTDB, Zeppelin, Gravitino, Polaris, Fluss, SkyWalking, InLong, and Ranger. The full table, with CWE classes and fixed-in versions, is in **[security-research](https://github.com/oscerd/security-research)**.
+**113 CVEs I have been credited on**, across Camel and fourteen other Apache projects: Hadoop, Hive, Storm, Doris, Flink, Flink Kubernetes Operator, IoTDB, Zeppelin, Gravitino, Polaris, Fluss, SkyWalking, InLong, and Ranger. The full table, with CWE classes and fixed-in versions, is in **[security-research](https://github.com/oscerd/security-research)**.
 
-Finding a vulnerability and fixing one are separate credits, and the second kind is the larger half of the work. Of the 71 Camel CVEs reported by other researchers or found by internal analysis, **I wrote the remediation for 64** — triage, the fix, the backports to the supported LTS lines, and the advisory. The finder credit on those belongs to the reporter, who is named in the table.
+Finding a vulnerability and fixing one are separate credits, and for me the second is much the larger half. **29 of those are my own findings** — all 16 outside Camel, and 13 in Camel itself. On the other **84 I wrote the remediation** for something someone else found: triage, the fix, the backports to the supported LTS lines, and the advisory. The finder credit there belongs to the reporter, named in the table.
 
 Much of it is one bug class chased across unrelated codebases: **untrusted input reaching a control plane that assumed it was trusted.** In Camel that shows up as header injection, an inbound header the framework never filtered, steering a producer into SSRF, a cross-topic write, or a redirected SOAP operation. Elsewhere it wears different clothes. Other recurring findings:
 
